@@ -23,9 +23,7 @@ const Product = () => {
             status:'Ordered',
             totalAmount:150
         }
-
     ];
-
     return (
         <div>
             <div style={{ margin: "3rem" }}>
@@ -56,6 +54,5 @@ const Product = () => {
             </div>
         </div>
     );
-
 }
 export default Product;

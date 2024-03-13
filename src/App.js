@@ -1,4 +1,3 @@
-// Filename - App.js
 
 import React from "react";
 import {
@@ -27,7 +26,6 @@ function App() {
 						path="/product"
 						element={<Product />}
 					/>
-
 					<Route
 						path="/create"
 						element={<Create />}
