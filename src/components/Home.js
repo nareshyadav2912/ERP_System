@@ -1,5 +1,3 @@
-// Filename - components/Home.js
-
 import React from "react";
 import { Button, Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

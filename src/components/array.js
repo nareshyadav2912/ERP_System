@@ -21,5 +21,4 @@ const array = [
 		Quantity:"5"
 	},
 ];
-
 export default array;

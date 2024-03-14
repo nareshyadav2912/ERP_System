@@ -1,0 +1,139 @@
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .details-container div {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .details-container div h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .details-container div p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .details-container div button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .details-container div button:hover {
+    background-color: #0056b3;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: blanchedalmond;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .heading {
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .link-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .link-container a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .link-container a:hover {
+      text-decoration: underline;
+    }
+    
+    .details-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    
+    .details-card {
+      flex: 1;
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .details-card h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .details-card p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .details-card button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .details-card button:hover {
+      background-color: #0056b3;
+    }

@@ -1,29 +1,18 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import orders from './orders'
 const Product = () => {
-    const orders = [
-        {
-            id: 1,
-            customerName: 'John Doe',
-            orderDate: '12-03-2024',
-            status: 'Shipped',
-            totalAmount: 150
-        },
-        {
-            id:2,
-            customerName:'Alice',
-            orderDate:'13-03-2024',
-            status:'Ordered',
-            totalAmount:120
-        },
-        {
-            id:3,
-            customerName:'Bob',
-            orderDate:'14-03-2024',
-            status:'Ordered',
-            totalAmount:150
-        }
-    ];
+    let history = useNavigate();
+    function deleted(id) {
+        let index = orders
+            .map(function (e) {
+                return e.id;
+            })
+            .indexOf(id);
+        orders.splice(index, 1);
+        history("/product");
+    }
     return (
         <div>
             <div style={{ margin: "3rem" }}>
@@ -46,6 +35,16 @@ const Product = () => {
                                     <td>{item.orderDate}</td>
                                     <td>{item.status}</td>
                                     <td>{item.totalAmount}</td>
+                                    <td>
+                                        <Button
+                                            onClick={(e) =>
+                                                deleted(item.id)
+                                            }
+                                            variant="danger"
+                                        >
+                                            Delete
+                                        </Button>
+                                    </td>
                                 </tr>
                             );
                         })}
