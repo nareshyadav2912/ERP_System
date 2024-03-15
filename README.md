@@ -47,30 +47,6 @@ This README document serves as a guide for running and using the front-end appli
    - Start the development server: `npm start`
    - Open the browser and go to `http://localhost:3000` to view the application.
 
-## Project Overview
-
-The ERP system consists of the following pages:
-- **Dashboard**: Provides an overview of key metrics and features, with quick navigation links to Products and Orders management pages.
-- **Products Management**: Allows for the management of product listings, including functionalities to add, edit, and delete products.
-- **Orders Management**: Facilitates viewing and handling orders, with options to view order details, update status, and delete orders.
-
-
-### Dashboard
-- Displays key metrics or features.
-- Provides quick navigation links to other sections.
-
-### Products Management
-- Presents a list of products with details.
-- Enables functionalities to add, edit, and delete products.
-
-### Orders Management
-- Shows a list of orders with details.
-- Allows viewing of order details, updating status, and deletion.
-
-
-## Technology Stack
-
-- Frontend: React
 ## Sceenshots
 - ADD TASK
 ![Home Page](https://github.com/nareshyadav2912/ERP_System/assets/94747836/24f8dd2d-b6f7-4775-90aa-c000f668c8f2)
